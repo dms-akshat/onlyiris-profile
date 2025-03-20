@@ -33,7 +33,7 @@ export default function ProfilePage() {
           <h1 className="text-3xl font-bold flex items-center gap-2 mb-1">
             <span role="img" aria-label="fire">🔥</span> Aadarsh
           </h1>
-          <p className="text-xl mb-6">🎤 Product Maestro | Random Thought Dispenser | International Crooner (because why not?)</p>
+          <p className="text-xl mb-6">🎤 Product Maestro | Random Thought Dispenser | International Crooner (because the algorithm demands content before the heat death of the universe)</p>
 
           {/* Premium Subscription Perks */}
           <div className="mb-6">
@@ -41,16 +41,16 @@ export default function ProfilePage() {
               <span role="img" aria-label="sparkle">✨</span> Premium Subscription Perks: <span role="img" aria-label="sparkle">✨</span>
             </h2>
             <ul className="space-y-4 list-disc pl-6">
-              <li className="text-lg">👉 Feature Forecasting – Predicting product needs before you even know you have them. 🔮</li>
-              <li className="text-lg">🤔 Unfiltered Idea Streams – My tweets are like a brainstorming session, but make it public.</li>
-              <li className="text-lg">🎶 Serenade Sessions – Occasional (or frequent) vocal performances, because life's a musical.</li>
-              <li className="text-lg">🌍 Global Perspective – Bringing a non-Indian viewpoint to your timeline.</li>
-              <li className="text-lg">🚀 Agile Adaptation – Pivoting product strategies and random tweets with equal finesse.</li>
+              <li className="text-lg">👉 Feature Forecasting – Predicting product needs before they're rendered obsolete by the next existential crisis. 🔮</li>
+              <li className="text-lg">🤔 Unfiltered Idea Streams – My tweets are the digital equivalent of screaming into the void; you're welcome.</li>
+              <li className="text-lg">🎶 Serenade Sessions – Occasional (or frequent) vocal performances, a desperate attempt to drown out the silence.</li>
+              <li className="text-lg">🌍 Global Perspective – Bringing a non-Indian viewpoint to your timeline, because we're all equally doomed.</li>
+              <li className="text-lg">🚀 Release Cycles of Despair: From Launch to Lament – Pivoting product strategies and accepting the futility of it all with equal velocity.</li>
             </ul>
           </div>
 
           {/* Call to Action */}
-          <p className="text-lg mb-6">💳 Subscribe to my chaos – because you never know what product idea or song lyric will drop next.</p>
+          <p className="text-lg mb-6">💳 Subscribe to my chaos – because you never know what product idea or song lyric will drop next, and honestly, at this point, who cares?</p>
         </div>
       </div>
     </div>
