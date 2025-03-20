@@ -9,7 +9,7 @@ export default function ProfilePage() {
         <div className="relative">
           <div className="h-40 relative">
             <Image
-              src="/vinit_banner.jpg?height=160&width=500"
+              src="/aadarsh_banner.jpg?height=160&width=500"
               alt="Banner image"
               fill
               className="object-cover"
@@ -19,7 +19,7 @@ export default function ProfilePage() {
           <div className="absolute -bottom-12 left-6">
             <div className="rounded-full border-4 border-white overflow-hidden h-24 w-24">
               <Image
-                src="/vinit_pfp.jpg?height=96&width=96"
+                src="/aadarsh_pfp.jpg?height=96&width=96"
                 alt="Profile picture"
                 width={96}
                 height={96}
@@ -33,11 +33,10 @@ export default function ProfilePage() {
         <div className="pt-14 px-6 pb-6">
           {/* Name and Bio */}
           <h1 className="text-3xl font-bold flex items-center gap-2 mb-1">
-            <span role="img" aria-label="fire">🔥</span> Vinit Puranik
+            <span role="img" aria-label="fire">🔥</span> Aadarsh
           </h1>
           <p className="text-xl mb-6">
-            🔬 Systems Lead @ IRIS, NITK | LFX Fellow @ RISC-V (because my performance is pure assembly-level precision)
-            💻 Hardware & App Team Wizard (I know how to connect all the right circuits 😉)
+            🎤 Product Maestro | Random Thought Dispenser | International Crooner (because the algorithm demands content before the heat death of the universe)
           </p>
 
           {/* Premium Subscription Section */}
@@ -46,23 +45,22 @@ export default function ProfilePage() {
               <span role="img" aria-label="sparkles">✨</span> Premium Subscription Perks: <span role="img" aria-label="sparkles">✨</span>
             </h2>
             <ul className="space-y-4 list-disc pl-6">
-              <li className="text-lg">👉 <strong>Low-Level Mastery</strong> – I don’t just handle APIs—I talk directly to the hardware. 😏</li>
-              <li className="text-lg">💦 <strong>Overclocked for Performance</strong> – Push me to my limits, I’ll keep going. 🔥</li>
-              <li className="text-lg">👉 <strong>"Bare Metal Experience"</strong> – Because I don’t need a UI to satisfy your needs. 😉</li>
-              <li className="text-lg">🚀 <strong>Multi-Architecture Flexibility</strong> – Whether x86 or ARM, I perform flawlessly on every platform. 😈</li>
-              <li className="text-lg">🔧 <strong>System Stability</strong> – Because my deployments are rock solid, unlike your GPA. 😎</li>
-              <li className="text-lg">💥 <strong>Cache King</strong> – I know when to clear the junk and when to keep things hot. 🔥</li>
+              <li className="text-lg">👉 Feature Forecasting – Predicting product needs before they're rendered obsolete by the next existential crisis. 🔮</li>
+              <li className="text-lg">🤔 Unfiltered Idea Streams – My tweets are the digital equivalent of screaming into the void; you're welcome.</li>
+              <li className="text-lg">🎶 Serenade Sessions – Occasional (or frequent) vocal performances, a desperate attempt to drown out the silence.</li>
+              <li className="text-lg">🌍 Global Perspective – Bringing a non-Indian viewpoint to your timeline, because we're all equally doomed.</li>
+              <li className="text-lg">🚀 Release Cycles of Despair: From Launch to Lament – Pivoting product strategies and accepting the futility of it all with equal velocity.</li>
             </ul>
           </div>
 
           {/* Call to Action */}
           <p className="text-lg mb-6">
-            💳 Swipe that card and enter my pipeline—I'll take you straight to production, no staging required. 😎
+            💳 Subscribe to my chaos – because you never know what product idea or song lyric will drop next, and honestly, at this point, who cares?
           </p>
 
           {/* Subscribe Button */}
           <Button className="w-full py-6 text-xl bg-blue-500 hover:bg-blue-600 rounded-full">
-            SUBSCRIBE FOR $200 PER MONTH 
+            SUBSCRIBE FOR $20 PER MONTH
           </Button>
         </div>
       </div>

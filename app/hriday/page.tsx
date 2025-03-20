@@ -9,7 +9,7 @@ export default function ProfilePage() {
         <div className="relative">
           <div className="h-40 relative">
             <Image
-              src="/vinit_banner.jpg?height=160&width=500"
+              src="/hriday_banner.jpg?height=160&width=500"
               alt="Banner image"
               fill
               className="object-cover"
@@ -19,7 +19,7 @@ export default function ProfilePage() {
           <div className="absolute -bottom-12 left-6">
             <div className="rounded-full border-4 border-white overflow-hidden h-24 w-24">
               <Image
-                src="/vinit_pfp.jpg?height=96&width=96"
+                src="/hriday_pfp.jpg?height=96&width=96"
                 alt="Profile picture"
                 width={96}
                 height={96}
@@ -33,11 +33,10 @@ export default function ProfilePage() {
         <div className="pt-14 px-6 pb-6">
           {/* Name and Bio */}
           <h1 className="text-3xl font-bold flex items-center gap-2 mb-1">
-            <span role="img" aria-label="fire">🔥</span> Vinit Puranik
+            <span role="img" aria-label="fire">🔥</span> Hriday
           </h1>
           <p className="text-xl mb-6">
-            🔬 Systems Lead @ IRIS, NITK | LFX Fellow @ RISC-V (because my performance is pure assembly-level precision)
-            💻 Hardware & App Team Wizard (I know how to connect all the right circuits 😉)
+            💻 Labs Software Lead @ IRIS, NITK | ML & RL Expert | Research @ UAlberta, IITM, IISc (optimizing policies better than your life choices)
           </p>
 
           {/* Premium Subscription Section */}
@@ -46,23 +45,22 @@ export default function ProfilePage() {
               <span role="img" aria-label="sparkles">✨</span> Premium Subscription Perks: <span role="img" aria-label="sparkles">✨</span>
             </h2>
             <ul className="space-y-4 list-disc pl-6">
-              <li className="text-lg">👉 <strong>Low-Level Mastery</strong> – I don’t just handle APIs—I talk directly to the hardware. 😏</li>
-              <li className="text-lg">💦 <strong>Overclocked for Performance</strong> – Push me to my limits, I’ll keep going. 🔥</li>
-              <li className="text-lg">👉 <strong>"Bare Metal Experience"</strong> – Because I don’t need a UI to satisfy your needs. 😉</li>
-              <li className="text-lg">🚀 <strong>Multi-Architecture Flexibility</strong> – Whether x86 or ARM, I perform flawlessly on every platform. 😈</li>
-              <li className="text-lg">🔧 <strong>System Stability</strong> – Because my deployments are rock solid, unlike your GPA. 😎</li>
-              <li className="text-lg">💥 <strong>Cache King</strong> – I know when to clear the junk and when to keep things hot. 🔥</li>
+              <li className="text-lg">👉 <strong>Neural Network Tuning</strong> – Because I fine-tune better than your last relationship. 😏</li>
+              <li className="text-lg">🔄 <strong>Infinite Reinforcement</strong> – I keep learning from my mistakes, unlike you. 😉</li>
+              <li className="text-lg">💡 <strong>State-of-the-Art Models</strong> – My architectures are more advanced than your excuses.</li>
+              <li className="text-lg">🔍 <strong>Optimal Decision Making</strong> – I maximize rewards while you maximize regrets. 😈</li>
+              <li className="text-lg">🚀 <strong>Real-Time Adaptation</strong> – I adjust faster than your mood swings.</li>
             </ul>
           </div>
 
           {/* Call to Action */}
           <p className="text-lg mb-6">
-            💳 Swipe that card and enter my pipeline—I'll take you straight to production, no staging required. 😎
+            💳 Swipe your card and enter my Markov Decision Process—because once you're in, there’s no turning back. 🔥
           </p>
 
           {/* Subscribe Button */}
           <Button className="w-full py-6 text-xl bg-blue-500 hover:bg-blue-600 rounded-full">
-            SUBSCRIBE FOR $200 PER MONTH 
+            SUBSCRIBE FOR $20 PER MONTH
           </Button>
         </div>
       </div>

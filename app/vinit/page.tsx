@@ -62,7 +62,7 @@ export default function ProfilePage() {
 
           {/* Subscribe Button */}
           <Button className="w-full py-6 text-xl bg-blue-500 hover:bg-blue-600 rounded-full">
-            SUBSCRIBE FOR $200 PER MONTH 
+            SUBSCRIBE FOR $200 PER MONTH
           </Button>
         </div>
       </div>
