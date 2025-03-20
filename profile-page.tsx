@@ -7,11 +7,19 @@ export default function ProfilePage() {
       <div className="rounded-lg border shadow-sm overflow-hidden">
         {/* Banner and Profile Picture */}
         <div className="relative">
-          <div className="h-40 bg-stone-600"></div>
+          <div className="h-40 relative">
+            <Image
+              src="/vedant_banner.jpg?height=160&width=500"
+              alt="Banner image"
+              fill
+              className="object-cover"
+              priority
+            />
+          </div>
           <div className="absolute -bottom-12 left-6">
             <div className="rounded-full border-4 border-white overflow-hidden h-24 w-24">
               <Image
-                src="/placeholder.svg?height=96&width=96"
+                src="/vedant_pfp.jpg?height=96&width=96"
                 alt="Profile picture"
                 width={96}
                 height={96}
@@ -99,12 +107,6 @@ export default function ProfilePage() {
             SUBSCRIBE FOR $20 PER MONTH
           </Button>
         </div>
-      </div>
-
-      {/* Posts Section */}
-      <div className="mt-6">
-        <h2 className="text-3xl font-bold mb-4">Posts</h2>
-        {/* Post placeholders would go here */}
       </div>
     </div>
   )
