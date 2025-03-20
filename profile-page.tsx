@@ -1,5 +1,5 @@
-import Image from "next/image"
-import { Button } from "@/components/ui/button"
+import Image from "next/image";
+import { Button } from "@/components/ui/button";
 
 export default function ProfilePage() {
   return (
@@ -9,7 +9,7 @@ export default function ProfilePage() {
         <div className="relative">
           <div className="h-40 relative">
             <Image
-              src="/vedant_banner.jpg?height=160&width=500"
+              src="/fahim_banner.jpg?height=160&width=500"
               alt="Banner image"
               fill
               className="object-cover"
@@ -19,7 +19,7 @@ export default function ProfilePage() {
           <div className="absolute -bottom-12 left-6">
             <div className="rounded-full border-4 border-white overflow-hidden h-24 w-24">
               <Image
-                src="/vedant_pfp.jpg?height=96&width=96"
+                src="/fahim_pfp.jpg?height=96&width=96"
                 alt="Profile picture"
                 width={96}
                 height={96}
@@ -33,73 +33,29 @@ export default function ProfilePage() {
         <div className="pt-14 px-6 pb-6">
           {/* Name and Bio */}
           <h1 className="text-3xl font-bold flex items-center gap-2 mb-1">
-            <span role="img" aria-label="fire">
-              🔥
-            </span>{" "}
-            Vedant Tarale
+            <span role="img" aria-label="fire">🔥</span> Fahim Ahmed
           </h1>
           <p className="text-xl mb-6">
-            "Lifting Code by Day, Lifting You by Night"{" "}
-            <span role="img" aria-label="laptop">
-              💻
-            </span>
+            💼 Admin Lead @ IRIS, NITK | Ex-Morgan Stanley (handled big assets, if you know what I mean 😉) | 5x Hackathon Winner (because breaking firewalls isn’t the only thing I’m good at 😏)
           </p>
 
           {/* Premium Subscription Section */}
           <div className="mb-6">
             <h2 className="text-2xl font-bold mb-4">
-              <span role="img" aria-label="sparkle">
-                ✨
-              </span>{" "}
-              Premium Subscription Perks:{" "}
-              <span role="img" aria-label="sparkle">
-                ✨
-              </span>
+              <span role="img" aria-label="sparkle">✨</span> Premium Subscription Perks: <span role="img" aria-label="sparkle">✨</span>
             </h2>
             <ul className="space-y-4 list-disc pl-6">
-              <li className="text-lg">
-                Unlimited Queries– No rate limits here, you can send requests all night –and I always return a 200 OK.{" "}
-                <span role="img" aria-label="smile">
-                  😀
-                </span>
-              </li>
-              <li className="text-lg">
-                Low effort, high performance –just like my commit messages{" "}
-                <span role="img" aria-label="sweat droplets">
-                  💦
-                </span>
-              </li>
-              <li className="text-lg">
-                Bug-free-experience – Because the only thing breaking is you.{" "}
-                <span role="img" aria-label="pointing">
-                  👉
-                </span>
-              </li>
-              <li className="text-lg">
-                Multi-Threaded Processing – Because I know how to handle multiple requests at once{" "}
-                <span role="img" aria-label="smirking">
-                  😏
-                </span>
-              </li>
-              <li className="text-lg">
-                Adaptive Performance – Slow and sensual or fast and aggressive, I scale as per demand{" "}
-                <span role="img" aria-label="sweat droplets">
-                  💦
-                </span>
-              </li>
+              <li className="text-lg">👉 Product Management – I know exactly how to deliver satisfaction 😏</li>
+              <li className="text-lg">🔞 Unlimited debugging—because trust me, I’ll find your deepest issues and fix them real good.</li>
+              <li className="text-lg">🌶️ Halal-certified, but haram levels of spice.</li>
+              <li className="text-lg">👉 99.99% Uptime – Because I go all night but I never shut down.</li>
+              <li className="text-lg">⛔ Warning: Side effects may include dependency issues, attachment problems, and an inability to function without me.</li>
             </ul>
           </div>
 
           {/* Call to Action */}
           <p className="text-lg mb-6">
-            Swipe your card, accept your fate, and join the premium experience –where every transaction is
-            non-refundable, and so is your dignity.{" "}
-            <span role="img" aria-label="grin">
-              😁
-            </span>{" "}
-            <span role="img" aria-label="fire">
-              🔥
-            </span>
+            💳 Swipe that card, let’s commit to this pull request—because once you enter my repository, there’s no way out. 😈💦
           </p>
 
           {/* Subscribe Button */}
@@ -109,6 +65,5 @@ export default function ProfilePage() {
         </div>
       </div>
     </div>
-  )
+  );
 }
-
