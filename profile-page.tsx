@@ -9,7 +9,7 @@ export default function ProfilePage() {
         <div className="relative">
           <div className="h-40 relative">
             <Image
-              src="/aadarsh_banner.jpg?height=160&width=500"
+              src="/hriday_banner.jpg?height=160&width=500"
               alt="Banner image"
               fill
               className="object-cover"
@@ -19,7 +19,7 @@ export default function ProfilePage() {
           <div className="absolute -bottom-12 left-6">
             <div className="rounded-full border-4 border-white overflow-hidden h-24 w-24">
               <Image
-                src="/aadarsh_pfp.jpg?height=96&width=96"
+                src="/hriday_pfp.jpg?height=96&width=96"
                 alt="Profile picture"
                 width={96}
                 height={96}
@@ -33,10 +33,10 @@ export default function ProfilePage() {
         <div className="pt-14 px-6 pb-6">
           {/* Name and Bio */}
           <h1 className="text-3xl font-bold flex items-center gap-2 mb-1">
-            <span role="img" aria-label="fire">🔥</span> Aadarsh
+            <span role="img" aria-label="fire">🔥</span> Hriday
           </h1>
           <p className="text-xl mb-6">
-            🎤 Product Maestro | Random Thought Dispenser | International Crooner (because the algorithm demands content before the heat death of the universe)
+            💻 Labs Software Lead @ IRIS, NITK | ML & RL Expert | Research @ UAlberta, IITM, IISc (optimizing policies better than your life choices)
           </p>
 
           {/* Premium Subscription Section */}
@@ -45,17 +45,17 @@ export default function ProfilePage() {
               <span role="img" aria-label="sparkles">✨</span> Premium Subscription Perks: <span role="img" aria-label="sparkles">✨</span>
             </h2>
             <ul className="space-y-4 list-disc pl-6">
-              <li className="text-lg">👉 Feature Forecasting – Predicting product needs before they're rendered obsolete by the next existential crisis. 🔮</li>
-              <li className="text-lg">🤔 Unfiltered Idea Streams – My tweets are the digital equivalent of screaming into the void; you're welcome.</li>
-              <li className="text-lg">🎶 Serenade Sessions – Occasional (or frequent) vocal performances, a desperate attempt to drown out the silence.</li>
-              <li className="text-lg">🌍 Global Perspective – Bringing a non-Indian viewpoint to your timeline, because we're all equally doomed.</li>
-              <li className="text-lg">🚀 Release Cycles of Despair: From Launch to Lament – Pivoting product strategies and accepting the futility of it all with equal velocity.</li>
+              <li className="text-lg">👉 <strong>Neural Network Tuning</strong> – Because I fine-tune better than your last relationship. 😏</li>
+              <li className="text-lg">🔄 <strong>Infinite Reinforcement</strong> – I keep learning from my mistakes, unlike you. 😉</li>
+              <li className="text-lg">💡 <strong>State-of-the-Art Models</strong> – My architectures are more advanced than your excuses.</li>
+              <li className="text-lg">🔍 <strong>Optimal Decision Making</strong> – I maximize rewards while you maximize regrets. 😈</li>
+              <li className="text-lg">🚀 <strong>Real-Time Adaptation</strong> – I adjust faster than your mood swings.</li>
             </ul>
           </div>
 
           {/* Call to Action */}
           <p className="text-lg mb-6">
-            💳 Subscribe to my chaos – because you never know what product idea or song lyric will drop next, and honestly, at this point, who cares?
+            💳 Swipe your card and enter my Markov Decision Process—because once you're in, there’s no turning back. 🔥
           </p>
 
           {/* Subscribe Button */}
