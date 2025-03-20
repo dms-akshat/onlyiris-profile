@@ -9,7 +9,7 @@ export default function ProfilePage() {
         <div className="relative">
           <div className="h-40 relative">
             <Image
-              src="/hriday_banner.jpg?height=160&width=500"
+              src="/keerthi_banner.jpg?height=160&width=500"
               alt="Banner image"
               fill
               className="object-cover"
@@ -19,7 +19,7 @@ export default function ProfilePage() {
           <div className="absolute -bottom-12 left-6">
             <div className="rounded-full border-4 border-white overflow-hidden h-24 w-24">
               <Image
-                src="/hriday_pfp.jpg?height=96&width=96"
+                src="/keerthi_pfp.jpg?height=96&width=96"
                 alt="Profile picture"
                 width={96}
                 height={96}
@@ -33,29 +33,29 @@ export default function ProfilePage() {
         <div className="pt-14 px-6 pb-6">
           {/* Name and Bio */}
           <h1 className="text-3xl font-bold flex items-center gap-2 mb-1">
-            <span role="img" aria-label="fire">🔥</span> Hriday
+            <span role="img" aria-label="fire">🔥</span> Keerthi Bhushan
           </h1>
           <p className="text-xl mb-6">
-            💻 Labs Software Lead @ IRIS, NITK | ML & RL Expert | Research @ UAlberta, IITM, IISc (optimizing policies better than your life choices)
+            💾 Silicon Daddy | Lab Dom | Digital Deity (because circuits obey, and so will you)
           </p>
 
           {/* Premium Subscription Section */}
           <div className="mb-6">
             <h2 className="text-2xl font-bold mb-4">
-              <span role="img" aria-label="sparkles">✨</span> Premium Subscription Perks: <span role="img" aria-label="sparkles">✨</span>
+              <span role="img" aria-label="sparkles">✨</span> OnlyFans Premium Perks: <span role="img" aria-label="sparkles">✨</span>
             </h2>
             <ul className="space-y-4 list-disc pl-6">
-              <li className="text-lg">👉 <strong>Neural Network Tuning</strong> – Because I fine-tune better than your last relationship. 😏</li>
-              <li className="text-lg">🔄 <strong>Infinite Reinforcement</strong> – I keep learning from my mistakes, unlike you. 😉</li>
-              <li className="text-lg">💡 <strong>State-of-the-Art Models</strong> – My architectures are more advanced than your excuses.</li>
-              <li className="text-lg">🔍 <strong>Optimal Decision Making</strong> – I maximize rewards while you maximize regrets. 😈</li>
-              <li className="text-lg">🚀 <strong>Real-Time Adaptation</strong> – I adjust faster than your mood swings.</li>
+              <li className="text-lg">🔩 <strong>Hardwired Obedience</strong> – I design ASICs, but I can also rewire your desires.</li>
+              <li className="text-lg">🖥️ <strong>Debugging You in Real-Time</strong> – Strip away the inefficiencies, one instruction at a time.</li>
+              <li className="text-lg">📡 <strong>Raw, Unfiltered Tech Rants</strong> – Whispering sweet nothings about semiconductor bottlenecks while you beg for more.</li>
+              <li className="text-lg">🎓 <strong>Mentorship with a Side of Discipline</strong> – You want to learn? First, you kneel before the master of logic gates.</li>
+              <li className="text-lg">⚡ <strong>Clock Cycles & Kinks</strong> – Faster, deeper, more optimized—pipelining your pleasure with precision.</li>
             </ul>
           </div>
 
           {/* Call to Action */}
           <p className="text-lg mb-6">
-            💳 Swipe your card and enter my Markov Decision Process—because once you're in, there’s no turning back. 🔥
+            💳 Subscribe to get dominated by the architect of your next breakdown. You’re just a register in my pipeline.
           </p>
 
           {/* Subscribe Button */}
